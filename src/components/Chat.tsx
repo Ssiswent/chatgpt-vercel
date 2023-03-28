@@ -485,7 +485,6 @@ export default function (props: {
                   title="发送"
                   onClick={() => sendMessage()}
                   class="i-carbon:send-filled text-5 mx-3"
-                  style={{ height: '100%' }}
                 />
               </div>
             </div>
