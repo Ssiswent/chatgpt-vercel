@@ -418,7 +418,7 @@ export default function (props: {
                 select={selectPrompt}
               ></PromptList>
             </Show>
-            <div class="flex items-end">
+            <div class="flex items-end" style={{alignItems: 'stretch'}}>
               <textarea
                 ref={inputRef!}
                 id="input"
